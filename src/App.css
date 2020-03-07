@@ -1,38 +1,152 @@
-.App {
+body {
+  margin: 0;
+}
+h2 {
+  color: #16e0bd;
+}
+/* header */
+
+header {
+  background-color: rgb(17, 28, 41);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.intor {
+  background-color: #16e0bd;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+}
+
+.intor img {
+  margin: 20px;
+  padding-top: 10px;
+}
+
+#portfolio {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.portfolio-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.portfolio-list {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.portfolio-img {
+  padding: 10px;
+}
+
+.portfolio-item {
+  margin: 5px;
+}
+
+.portfolio-text {
+  width: 50%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+#about {
+  text-align: center;
+}
+
+.about-section {
+  background-color: #16e0bd;
+  color: #fff;
+  padding: 15px;
+}
+
+.about-content {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+#contact {
+  text-align: center;
+}
+.contact-section {
+  padding: 20px;
+}
+.contact-text {
+  text-align: center;
+}
+.email {
+  text-decoration: none;
+  color: #16e0bd;
+}
+
+.footer-web {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(17, 28, 41);
+  color: #fff;
+  margin-bottom: 0;
+  padding: 15px;
+}
+#location-footer-web {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 7px;
+}
+.web-button {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.web-button button {
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.star-div {
+  text-align: center;
+}
+
+.star-white {
+  color: #fff;
+  margin: 0px auto;
+}
+
+.star-line-white {
+  display: inline-flex;
+  color: #fff;
+  width: 4%;
+}
+
+.star-black {
+  color: #000;
+  margin: 0px auto;
+}
+
+.star-line-black {
+  display: inline-flex;
+  color: #000;
+  width: 4%;
 }
